@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=La+Belle+Aurore&family=Playfair+Display:ital@1&display=swap');
+
+/* //////// MOBILE */
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 580px) {
+footer {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+.container {
+    flex-direction: column;
+}
+#mobileNav {
+    visibility: visible;
+    padding: 0;
+    margin: 0;
+}
+#grid2 {
+    width: 100% !important;
+}
+#grid1 {
+    display: none !important;
+}
+.logo {
+    font-size: 2rem !important;
+}
+header>img {
+    margin-top: -45px !important;
+}
+h2.logo {
+    font-size: 2.25rem !important;
+}
+.icons {
+    visibility: visible !important;
+    width: 30px;
+    height: 30px;
+    color: rgb(60, 59, 59);
+}
+.linkWords {
+    display: none !important;
+}
+ul {
+    justify-content: space-evenly !important;
+}
+#ulWords {
+    display: none !important;
+}
+
+#bookMobile {
+    visibility: visible !important;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar {
+    display: none !important;
+}
+
+.mobileUl {
+    visibility: visible;
+    position: fixed;
+    bottom: 0px;
+
+    background-color: rgb(255, 242, 222);
+    border-top: 1px solid rgba(70, 58, 19, 0.264);
+
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+ 
+    width: 100vw;
+
+    z-index: 999;
+}
+}
+
+/* //////// END MOBILE */
+
+
+.mainView {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(255, 242, 222);
+    color: rgb(60, 59, 59);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header>img {
+    position: relative;
+    width: 100%;
+    margin-top: -55px;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1 ;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(60, 59, 59);
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: 'Playfair Display',serif;
+    margin-bottom: -27px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-family: 'La Belle Aurore', cursive;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+}
+
+h2.logo{
+    margin-top: 0%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(255, 242, 222);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#grid1 {
+    width: 30%;
+    flex: 1;
+    background-color: rgba(70, 58, 19, 0.264);
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#grid2 {
+    width: 60%;
+    flex: 3 2;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.grid {
+    width: 100%;
+    padding: 5px;
+}
+
+.roundPic {
+    width: 85%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+}
+
+#pearl {
+    width: 25vw;
+    float: left;
+    margin-top: -20px;
+    padding-right: 15px;
+}
+
+p::first-line {
+    font-size: 2rem;
+    font-family: 'La Belle Aurore', cursive;
+    line-height: 2rem;
+}
+
+.line {
+    width: 100%;
+    margin: 10px;
+    height: 1px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(60, 59, 59);
+}
+
+#sidebar {
+    position: relative;
+    margin-left: 1px;
+    width: 100%;
+    padding: 0px;
+    margin-left: -30px;
+}
+
+#sidebar>ul {
+    flex-direction: column;
+    width: 100px;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+#sidebar>ul>li {
+    font-size: 1.8rem;
+    font-family: 'Playfair Display',serif;
+    background-color:  rgb(255, 242, 222);
+    color: pink;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#mobileNav {
+    visibility: hidden;
+}
+
+
+
+
+
+
+.shadow {
+    box-shadow: 0px 0px 50px rgb(60, 59, 59);
+}
+
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+#book>img {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.book {
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+#bookMobile {
+    visibility: hidden;
+}
+
+#bookMobile>img {
+    max-width: 250px;
+}
+
+
+#bookMobile {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
